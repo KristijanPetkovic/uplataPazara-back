@@ -53,7 +53,7 @@ namespace UplataPazaraAPI.Controllers
             {
                 return NotFound();
             }
-
+            _ = Task.CompletedTask;
             return korisnik;
         }
 
