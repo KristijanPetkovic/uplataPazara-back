@@ -42,6 +42,21 @@ namespace UplataPazaraAPI.Controllers
             return korisnik;
         }
 
+        //Custom metoda za pronalaznje korisnika po imenu
+        // GET: api/Korisniks/GetKorisnikByName/test1
+        [HttpGet("GetKorisnikByName/{username}")]
+        public async Task<ActionResult<Korisnik>> GetKorisnikByName(string username)
+        {
+            var korisnik =_context.Korisniks.FirstOrDefault(acc => acc.KorisnickoIme.Equals(username));
+
+            if (korisnik == null)
+            {
+                return NotFound();
+            }
+
+            return korisnik;
+        }
+
         // PUT: api/Korisniks/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
