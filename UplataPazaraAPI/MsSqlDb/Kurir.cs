@@ -20,7 +20,7 @@ namespace UplataPazaraAPI.MsSqlDb
         public DateTime DatumUnosa { get; set; }
         public int KorisnikUnosa { get; set; }
 
-        public virtual Trgovac Trgovac { get; set; } = null!;
-        public virtual Uplatum Uplatum { get; set; } = null!;
+        public virtual Trgovac? Trgovac { get; set; } = null!;
+        public virtual Uplatum? Uplatum { get; set; } = null!;
     }
 }
