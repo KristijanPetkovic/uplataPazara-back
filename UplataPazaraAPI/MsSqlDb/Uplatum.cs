@@ -18,6 +18,6 @@ namespace UplataPazaraAPI.MsSqlDb
         public DateTime DatumUnosa { get; set; }
         public int KorisnikUnosa { get; set; }
 
-        public virtual Kurir Uplata { get; set; } = null!;
+        public virtual Kurir? Uplata { get; set; } = null!;
     }
 }

@@ -170,7 +170,7 @@ namespace UplataPazaraAPI.MsSqlDb
 
                 entity.HasOne(d => d.Uplata)
                     .WithOne(p => p.Uplatum)
-                    .HasForeignKey<Uplatum>(d => d.UplataId)
+                    .HasForeignKey<Uplatum>(d => d.KurirId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Uplata_Kurir");
             });
