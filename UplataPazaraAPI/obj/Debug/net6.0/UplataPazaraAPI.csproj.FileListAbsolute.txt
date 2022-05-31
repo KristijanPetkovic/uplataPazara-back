@@ -787,3 +787,4 @@ D:\ApeironDiplomski\UplataPazaraAPI\uplataPazara-back\UplataPazaraAPI\obj\Debug\
 D:\ApeironDiplomski\UplataPazaraAPI\uplataPazara-back\UplataPazaraAPI\obj\Debug\net6.0\UplataPazaraAPI.pdb
 D:\ApeironDiplomski\UplataPazaraAPI\uplataPazara-back\UplataPazaraAPI\obj\Debug\net6.0\UplataPazaraAPI.genruntimeconfig.cache
 D:\ApeironDiplomski\UplataPazaraAPI\uplataPazara-back\UplataPazaraAPI\obj\Debug\net6.0\UplataPazaraAPI.csproj.AssemblyReference.cache
+D:\ApeironDiplomski\UplataPazaraAPI\uplataPazara-back\UplataPazaraAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
